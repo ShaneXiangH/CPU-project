@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../computer_org_lab09.srcs/sources_1/ip/cpuclk" \
+"../../../../computer_org_lab09.srcs/sources_1/ip/RAM/sim/RAM.v" \
+"../../../../computer_org_lab09.srcs/sources_1/imports/lab13/dmemory32.v" \
+"../../../../computer_org_lab09.srcs/sources_1/imports/lab13/dmemory_top.v" \
+"../../../../computer_org_lab09.srcs/sources_1/imports/lab13/ioread.v" \
+"../../../../computer_org_lab09.srcs/sources_1/imports/lab13/leds.v" \
+"../../../../computer_org_lab09.srcs/sources_1/imports/lab13/memorio.v" \
+"../../../../computer_org_lab09.srcs/sources_1/imports/lab13/switchs.v" \
+"../../../../computer_org_lab09.srcs/sources_1/imports/lab13/dmemory_top_sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

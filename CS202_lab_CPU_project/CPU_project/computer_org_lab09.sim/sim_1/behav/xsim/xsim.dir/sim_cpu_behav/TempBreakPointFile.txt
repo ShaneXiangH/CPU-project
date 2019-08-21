@@ -1,0 +1,2 @@
+Breakpoint File Version 1.0
+50 true /home/ltj/vivado/vivado_project/computer_org_lab09/computer_org_lab09.srcs/sources_1/imports/lab11/executs32.v
