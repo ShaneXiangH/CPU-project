@@ -1,3 +1,3 @@
-#CPU-project
+# CPU-project
 
-This is my CPU project in the class: Principle of Computer Organization.
+The work is done as the final project in CS202 Principle of Computer Organization 2019 spring @ SUSTech
